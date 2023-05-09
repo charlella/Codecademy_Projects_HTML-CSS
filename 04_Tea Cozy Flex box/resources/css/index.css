@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0,9;
+    align-items: center;
+  }
+
+#header {
+   display: flex;
+   height: 69px;
+   width: 100%;
+   justify-content: space-between;
+   border-bottom: 1px solid seashell;
+   top: 0;  
+   position: fixed;
+   background: black;
+   align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    justify-content: center;
+ }
+
+a {
+color: seashell;
+text-decoration: underline;
+}
+
+a:hover {
+    color: orange;
+  }
+
+.section1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: url('../images/Background.jpeg') center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 69px auto;
+  }
+   
+.mission {
+    display: block;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+  justify-content: space-around;
+  align-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  }
+/* .box {
+    color: seashell;
+    max-width: 300px;
+    height: 200px;
+  } */
+
+#wrap {
+    flex-wrap: wrap;
+  }
+
+.section2 {
+  display: block;
+  text-align: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 69px auto;
+  padding-bottom: 10px;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 1200px;
+  min-height: 500px;
+  background: url(../images/Locations.jpeg) center center;
+  margin: 0px auto;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
+.cards {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+#footer {
+  width: 100%;
+  bottom: 0;
+  position:sticky;
+  background: black;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.TeaCozy {
+  height: 200px;
+  text-align: center;
+  background-color: black;
+
+}
+
+h4{
+  display: block;
+  text-align: center;
+}
+
+#location-container {
+  align-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
