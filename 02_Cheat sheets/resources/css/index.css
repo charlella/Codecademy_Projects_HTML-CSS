@@ -1,0 +1,52 @@
+* {
+    background-color : lavender;
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+
+}
+table,
+td {
+    border: 1px solid purple;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: black;
+}
+
+thead {
+    vertical-align: middle;
+    
+  }
+
+h1 {
+    font-family: 'Bradley Hand';
+    color: RebeccaPurple;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    color: Indigo;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-left : 500;
+    margin-right: 500;
+}
+
+th {
+    background-color: MediumOrchid;
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
